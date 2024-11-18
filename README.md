@@ -103,10 +103,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 ```bash
 
 # Create New Migration
-npm run migration:create your-migration-name
+npm run migration:create --name=your-migration-name
 
 # Generate Migration
-npm run migration:generate your-migration-name
+npm run migration:generate --name=your-migration-name
 
 # Run Migration
 npm run migration:run
@@ -116,6 +116,8 @@ npm run migration:revert
 ```
 
 ## That's it. You are good to go. Happy Coding!
+
+### Any Issue Please report !
 
 Author: [Sanjay Kumar](https://sanjay.works)
 Email: [me@sanjay.works](mailto:me@sanjay.works)
